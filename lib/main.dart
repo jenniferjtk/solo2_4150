@@ -32,7 +32,7 @@ class _TipCalcScreenState extends State<TipCalcScreen> {
     Color(0xFFFFD9A0), // orange
     Color(0xFFFFFFBC), // yellow
     Color(0xFFB5EAD7), // green
-    Color(0xFFC7CEEA), // lavender
+    Color(0xFF4A6FA5), // deep blue — dark enough to flip text to white
   ];
 
   //tracks which color we're on
@@ -100,7 +100,7 @@ class _TipCalcScreenState extends State<TipCalcScreen> {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: [
-                  //hint text at top so user knows they can tap to change color
+                  //HINT text at top so user knows they can tap to change color
                   Text(
                     'tap empty areas to cycle colors',
                     textAlign: TextAlign.center,
